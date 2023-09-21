@@ -5,10 +5,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Table</title>
     <link rel="stylesheet" href="style.css" />
+	  <style>
+      table,
+      td,
+      th,
+      tr {
+        border: 1px solid black;
+      }
+    </style>
   </head>
   <body>
     <table style="width: 100%; height: 100%">
       <!-- Your code here -->
+		<tr>
+        <td>
+          <table>
+            <thead>
+              <tr>
+                <th colspan="16">Nested Table 2</th>
+				  
+              </tr>
+            </thead>
+            <thead>
+              <tr>
+                <th colspan="8">Column 1</th>
+                <th colspan="8">Column 2</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>abc</td>
+                <td>def</td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        <td>
+          <table>
+            <thead>
+              <tr>
+                <th>Nested Table 1</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <ul>
+                    <li>list item</li>
+                    <li>list item</li>
+                    <li>list item</li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table>
+            <tr></tr>
+            <thead>
+              <tr>
+                <th colspan="2">Nested Table 3</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Nested Table</td>
+                    <td>Demo Continued</td>
+                </tr>
+            </tbody>
+            <tr></tr>
+          </table>
+        </td>
+        <td>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nested Table 4</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="2" style="background-color: black; color: white;">HTML</td>
+                    </tr>
+                </tbody>
+            </table>
+        </td>
+      </tr>
     </table>
   </body>
 </html>
